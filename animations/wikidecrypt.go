@@ -3,7 +3,7 @@ package animations
 import (
 	"context"
 	"encoding/json"
-	"gotermfx/termfx"
+	"github.com/mohamedation/gotermfx/termfx"
 	"math/rand"
 	"net/http"
 	"os"
@@ -32,7 +32,7 @@ func fetchRandomWiki(ctx context.Context) (*wikiSummary, error) {
 	if err != nil {
 		return nil, err
 	}
-	req.Header.Set("User-Agent", "gotermfx/1.0 terminal-animation")
+	req.Header.Set("User-Agent", "github.com/mohamedation/gotermfx/1.0 terminal-animation")
 	client := &http.Client{Timeout: 10 * time.Second}
 	resp, err := client.Do(req)
 	if err != nil {

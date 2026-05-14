@@ -11,8 +11,8 @@ import (
 	"syscall"
 	"time"
 
-	_ "gotermfx/animations"
-	"gotermfx/termfx"
+	_ "github.com/mohamedation/gotermfx/animations"
+	"github.com/mohamedation/gotermfx/termfx"
 )
 
 func main() {

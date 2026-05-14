@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"gotermfx/termfx"
+	"github.com/mohamedation/gotermfx/termfx"
 )
 
 type fireworks struct{}

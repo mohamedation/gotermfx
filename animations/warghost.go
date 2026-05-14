@@ -2,7 +2,7 @@ package animations
 
 import (
 	"context"
-	"gotermfx/termfx"
+	"github.com/mohamedation/gotermfx/termfx"
 	"math/rand"
 	"os"
 	"strings"
