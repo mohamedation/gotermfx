@@ -23,8 +23,6 @@ GoTermFX is a zero-dependency terminal animation CLI written in Go. Rain, matrix
 go install github.com/mohamedation/gotermfx@latest
 ```
 
-Or grab a binary from the [releases page](https://github.com/mohamedation/gotermfx/releases).
-
 ### Build from source
 
 ```bash
